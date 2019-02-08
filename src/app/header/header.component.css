@@ -1,1 +1,5 @@
 .headerCls{position: fixed; top: 0px; z-index: 1;}
+mat-toolbar{background: #fff; }
+.verticalLine{width:1px;background-color: #eee}
+.headerLeft{display: flex;    float: left;}
+.headerRight{float: right}
