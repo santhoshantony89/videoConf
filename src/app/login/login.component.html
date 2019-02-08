@@ -1,2 +1,19 @@
-<app-join-conf></app-join-conf>
+<app-join-conf style="display: none;"></app-join-conf>
 <app-broadcast></app-broadcast>
+<button mat-icon-button [matMenuTriggerFor]="menu" class="plusIcon">
+    <mat-icon><img src="../assets/images/icon-plus.png"/></mat-icon>
+</button>
+<mat-menu #menu="matMenu" class="subMenuHolder">
+    <button mat-menu-item class="subMenuIcon">
+        <mat-icon><img src="../assets/images/icon-joinconf-dark.png"/></mat-icon>
+        <span class="subMenuIconText">JOIN CONFERENCE</span>
+    </button>
+    <button mat-menu-item class="subMenuIcon">
+        <mat-icon><img src="../assets/images/icon-schedule-conf.png"/></mat-icon>
+        <span class="subMenuIconText">SCHEDULE CONFERENCE</span>
+    </button>
+    <button mat-menu-item class="subMenuIcon">
+        <mat-icon><img src="../assets/images/icon-my-conf.png"/></mat-icon>
+        <span class="subMenuIconText">MY CONFERENCE</span>
+    </button>
+</mat-menu>

@@ -1,3 +1,51 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 body{margin: 0px;}
+
+/** Overrides underline color **/
+.broadCastForm.mat-form-field-appearance-legacy .mat-form-field-underline,
+.broadCastForm.mat-form-field-appearance-legacy .mat-form-field-ripple,
+.broadCastForm.mat-form-field-appearance-legacy.mat-focused
+	.mat-form-field-underline,
+.broadCastForm.mat-form-field-appearance-legacy.mat-focused
+	.mat-form-field-ripple {
+	background-color: white;
+}
+
+/** Overrides label color **/
+.broadCastForm.mat-form-field-appearance-legacy .mat-form-field-label,
+.broadCastForm.mat-form-field-appearance-legacy.mat-focused
+	.mat-form-field-label {
+	color: white;
+}
+
+/** Overrides caret & text color **/
+.broadCastForm.mat-form-field-appearance-legacy .mat-input-element {
+	caret-color: white;
+  color: white;
+}
+
+/** Overrides underline color **/
+.joinConfForm.mat-form-field-appearance-legacy .mat-form-field-underline,
+.joinConfForm.mat-form-field-appearance-legacy .mat-form-field-ripple,
+.joinConfForm.mat-form-field-appearance-legacy.mat-focused
+	.mat-form-field-underline,
+.joinConfForm.mat-form-field-appearance-legacy.mat-focused
+	.mat-form-field-ripple {
+	background-color: #3a3b3a;
+}
+
+/** Overrides label color **/
+.joinConfForm.mat-form-field-appearance-legacy .mat-form-field-label,
+.joinConfForm.mat-form-field-appearance-legacy.mat-focused
+	.mat-form-field-label {
+	color: #3a3b3a;
+}
+
+/** Overrides caret & text color **/
+.joinConfForm.mat-form-field-appearance-legacy .mat-input-element {
+	caret-color: #3a3b3a;
+  color: #3a3b3a;
+}
+
+.subMenuHolder{box-shadow: none; background: none;}

@@ -9,6 +9,8 @@ export class BroadcastComponent implements OnInit {
 
   constructor() { }
 
+  cardTitle: string = "BROADCAST";
+
   ngOnInit() {
   }
 
