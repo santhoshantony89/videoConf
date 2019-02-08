@@ -1,0 +1,4 @@
+.mainContainer{height: 100vh;}
+.loginCard{border-top: 5px solid #3a3b3a; margin-top:64px;}
+.cardTitle{margin-left: 15px;}
+.btnGreen{width: 94%; margin-left: 3%; border-color: #00a17d; color: #00a17d; border-radius: 0px; padding: 5px 0px; margin-top: 6%;}
