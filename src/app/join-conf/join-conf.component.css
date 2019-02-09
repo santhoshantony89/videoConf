@@ -1,4 +1,4 @@
-.loginCard{border-top: 5px solid #3a3b3a; margin: 8% auto 4%; padding-bottom: 3%;}
+.joinConfCard{border-top: 8px solid #3a3b3a; margin: 8% auto 4%; padding-bottom: 3%; border-radius:0px;}
 .cardTitle{margin: 36px 0px 15px 15px!important; color:#3a3b3a;}
 .btnGreen{width: 94%; margin-left: 3%; border-color: #00a17d; color: #00a17d; border-radius: 0px; padding: 5px 0px; margin-top: 6%;}
 .confIcon{background: url("../../assets/images/icon-broadcast.png") no-repeat 0 0; display: block; height: 80px; width: 80px; position: absolute; top: 7%; right: 6%; cursor: pointer;}

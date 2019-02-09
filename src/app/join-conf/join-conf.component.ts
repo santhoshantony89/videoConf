@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-join-conf',
@@ -8,10 +8,16 @@ import { Component, OnInit } from '@angular/core';
 export class JoinConfComponent implements OnInit {
   title = 'cloudline';
 
+  @Output() callingBroadCast = new EventEmitter<any>();
+
   cardTitle: string = "JOIN CONFERENCE";
   constructor() { }
 
   ngOnInit() {
+  }
+
+  showBroadCast(){
+    this.callingBroadCast.emit(true);
   }
 
 }

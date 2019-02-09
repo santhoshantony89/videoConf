@@ -1,6 +1,6 @@
-<mat-card class="col-4 offset-4 loginCard">
+<mat-card class="col-4 offset-4 joinConfCard">
   <mat-card-title class="cardTitle">{{ cardTitle }}</mat-card-title>
-  <span class="confIcon"></span>
+  <span class="confIcon" (click)="showBroadCast()"></span>
   <form class="example-form">        
     <mat-form-field class="col-12 joinConfForm">
       <input matInput placeholder="Conference ID" type="text">
