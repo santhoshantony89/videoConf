@@ -1,4 +1,5 @@
 import { Component, OnInit, EventEmitter, Output } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-join-conf',
@@ -11,7 +12,7 @@ export class JoinConfComponent implements OnInit {
   @Output() callingBroadCast = new EventEmitter<any>();
 
   cardTitle: string = "JOIN CONFERENCE";
-  constructor() { }
+  constructor(private router:Router) { }
 
   ngOnInit() {
   }
@@ -19,5 +20,7 @@ export class JoinConfComponent implements OnInit {
   showBroadCast(){
     this.callingBroadCast.emit(true);
   }
-
+  gotoHome(){
+    this.router.navigate(['/home']);
+  }
 }
