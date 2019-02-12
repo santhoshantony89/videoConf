@@ -1,5 +1,16 @@
-<app-join-conf *ngIf="!showDisplay" (callingBroadCast)="displayBroadcast()"></app-join-conf>
-<app-broadcast *ngIf="showDisplay"></app-broadcast>
+<ngx-flip [flip]="flip">
+    <!-- <app-join-conf *ngIf="!showDisplay" (callingBroadCast)="displayBroadcast()" front></app-join-conf>
+    <app-broadcast *ngIf="showDisplay" back></app-broadcast> -->
+    <app-join-conf (callingBroadCast)="displayBroadcast()" front></app-join-conf>
+    <app-broadcast back></app-broadcast>
+</ngx-flip>
+
+<!-- <ngx-flip [flip]="flip">
+    <div front class="front">Front</div>
+    <div back class="back">Back</div>
+</ngx-flip> 
+<br>
+<button (click)="rotate()">Flip</button>-->
 <button mat-icon-button [matMenuTriggerFor]="menu" class="plusIcon">
     <mat-icon><img src="assets/images/icon-plus.png"/></mat-icon>
 </button>

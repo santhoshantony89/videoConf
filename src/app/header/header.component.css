@@ -4,4 +4,4 @@ mat-toolbar{background: #fff; }
 .headerLeft{display: flex;    float: left;}
 .headerRight{float: right}
 .logoHolder img{width:180px;}
-.menuIcon{margin: 8px;}
+.menuIcon{margin: 8px; cursor: pointer}

@@ -12,10 +12,12 @@ export class LoginComponent implements OnInit {
   ngOnInit() {
   }
 
-  showDisplay: boolean = false;
+  //showDisplay: boolean = false;
+  flip : boolean = false;
 
   displayBroadcast(){
-    this.showDisplay = true;
+    //this.showDisplay = true;
+    this.flip = true;
   }
 
 }

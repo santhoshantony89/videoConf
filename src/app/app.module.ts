@@ -7,6 +7,8 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 
+import { FlipModule } from 'ngx-flip';
+
 import { MatToolbarModule, MatCardModule, MatFormFieldModule,MatSidenavModule, MatInputModule, MatButtonModule, MatIconModule, MatMenuModule, MatListModule } from '@angular/material';
 import { JoinConfComponent } from './join-conf/join-conf.component';
 import { BroadcastComponent } from './broadcast/broadcast.component';
@@ -30,6 +32,7 @@ import { SidebarComponent } from './sidebar/sidebar.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    FlipModule,
     MatToolbarModule,
     MatCardModule,
     MatFormFieldModule,
