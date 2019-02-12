@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 
-import { MatToolbarModule, MatCardModule, MatFormFieldModule, MatInputModule, MatButtonModule, MatIconModule, MatMenuModule } from '@angular/material';
+import { MatToolbarModule, MatCardModule, MatFormFieldModule, MatInputModule, MatButtonModule, MatIconModule, MatMenuModule, MatSidenavModule } from '@angular/material';
 import { JoinConfComponent } from './join-conf/join-conf.component';
 import { BroadcastComponent } from './broadcast/broadcast.component';
 import { HomeComponent } from './home/home.component';
@@ -34,7 +34,8 @@ import { LoginComponent } from './login/login.component';
     MatInputModule,
     MatButtonModule,
     MatIconModule,
-    MatMenuModule
+    MatMenuModule,
+    MatSidenavModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,5 +1,7 @@
 .plusIcon{position: absolute; right: 18%; bottom: 6%;}
 .plusIcon img{height: 64px; width: 64px;}
 .subMenuHolder{background: none; box-shadow: none !important;}
-.subMenuIcon img{width: 36px; height: 36px; margin-top: -8px;}
-.subMenuIconText{font-size: 12px;}
+.subMenuIcon img{width: 36px; height: 36px; margin-top: -13px;}
+.subMenuIconText{font-size: 14px;}
+
+.example-container{width: 400px; height: 200px; margin: 10px; border: 1px solid #555;}
