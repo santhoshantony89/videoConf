@@ -1,5 +1,7 @@
-.headerCls{position: fixed; top: 0px; z-index: 1;}
+.headerCls{position: fixed; top: 0px; z-index: 2;}
 mat-toolbar{background: #fff; }
 .verticalLine{width:1px;background-color: #eee}
 .headerLeft{display: flex;    float: left;}
 .headerRight{float: right}
+.logoHolder img{width:180px;}
+.menuIcon{margin: 8px;}

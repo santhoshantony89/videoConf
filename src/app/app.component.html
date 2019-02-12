@@ -1,5 +1,21 @@
-<app-header></app-header>
-  <div class="col">
-    <router-outlet></router-outlet>
+<app-header (menuClicked)='displaySideBar($event)'></app-header>
+  <div class="" style="margin-top:65px;">
+      <mat-sidenav-container class="sidenaveHolder">
+          <mat-sidenav #sidenav mode="side" [(opened)]="opened" class="sideMenu">
+              <app-sidebar></app-sidebar>
+          </mat-sidenav>
+        
+          <mat-sidenav-content>
+            <!-- <p><mat-checkbox [(ngModel)]="opened">sidenav.opened</mat-checkbox></p>
+            <p><button mat-button (click)="sidenav.toggle()">sidenav.toggle()</button></p> -->
+            <!-- <p>Events:</p>
+            <div class="example-events">
+              <div *ngFor="let e of events">{{e}}</div>
+            </div> -->
+            <router-outlet></router-outlet>
+          </mat-sidenav-content>
+      </mat-sidenav-container>
   </div> 
 <app-footer></app-footer>
+
+

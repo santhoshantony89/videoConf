@@ -1,9 +1,9 @@
 <mat-toolbar class="mat-elevation-z1 headerCls">
   <div style="width:100%">
       <div class="headerLeft">
-          <span><img src="../assets/images/logo-cloudline.png"/></span>
+          <span class="logoHolder"><img src="assets/images/logo-cloudline.png"/></span>
           <div class="verticalLine"></div>
-          <mat-icon>menu</mat-icon>
+          <mat-icon (click)="menuClick()" class="menuIcon">menu</mat-icon>
       </div>
       <div class="headerRight">
         <a>Login | Registration</a>

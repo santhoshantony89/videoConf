@@ -7,11 +7,12 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 
-import { MatToolbarModule, MatCardModule, MatFormFieldModule, MatInputModule, MatButtonModule, MatIconModule, MatMenuModule, MatSidenavModule } from '@angular/material';
+import { MatToolbarModule, MatCardModule, MatFormFieldModule,MatSidenavModule, MatInputModule, MatButtonModule, MatIconModule, MatMenuModule, MatListModule } from '@angular/material';
 import { JoinConfComponent } from './join-conf/join-conf.component';
 import { BroadcastComponent } from './broadcast/broadcast.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { LoginComponent } from './login/login.component';
     JoinConfComponent,
     BroadcastComponent,
     HomeComponent,
-    LoginComponent
+    LoginComponent,
+    SidebarComponent
   ],
   schemas: [NO_ERRORS_SCHEMA],
   imports: [
@@ -34,8 +36,9 @@ import { LoginComponent } from './login/login.component';
     MatInputModule,
     MatButtonModule,
     MatIconModule,
+    MatSidenavModule,
     MatMenuModule,
-    MatSidenavModule
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
