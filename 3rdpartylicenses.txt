@@ -301,6 +301,9 @@ MIT
 @angular/router
 MIT
 
+ngx-flip
+MIT
+
 @angular/material
 MIT
 The MIT License
