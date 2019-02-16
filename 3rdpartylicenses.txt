@@ -370,6 +370,8 @@ MIT
 
 @angular/material/menu
 
+@angular/material/expansion
+
 @angular/material/toolbar
 
 @angular/material/sidenav
