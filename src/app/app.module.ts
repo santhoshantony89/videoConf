@@ -9,12 +9,19 @@ import { FooterComponent } from './footer/footer.component';
 
 import { FlipModule } from 'ngx-flip';
 
-import { MatToolbarModule, MatCardModule, MatFormFieldModule,MatSidenavModule, MatInputModule, MatButtonModule, MatIconModule, MatMenuModule, MatListModule } from '@angular/material';
+import { MatToolbarModule, MatCardModule, MatFormFieldModule,MatSidenavModule, MatInputModule, MatButtonModule, MatIconModule, MatMenuModule, MatListModule, MatExpansionModule } from '@angular/material';
 import { JoinConfComponent } from './join-conf/join-conf.component';
 import { BroadcastComponent } from './broadcast/broadcast.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
+
+import { Routes } from '@angular/router';
+
+const appRoutes: Routes = [
+  {path: '', component: LoginComponent},  
+  {path: 'home', component: HomeComponent}
+]
 
 @NgModule({
   declarations: [
@@ -41,7 +48,8 @@ import { SidebarComponent } from './sidebar/sidebar.component';
     MatIconModule,
     MatSidenavModule,
     MatMenuModule,
-    MatListModule
+    MatListModule,
+    MatExpansionModule
   ],
   providers: [],
   bootstrap: [AppComponent]

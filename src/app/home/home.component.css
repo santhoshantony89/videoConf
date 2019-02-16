@@ -1,0 +1,5 @@
+.videoHolder{border:1px solid #ccc; min-height: 390px; margin-top: 1%;}
+.videoHolderIcons{margin: 1% auto;}
+.videoIcons img{cursor: pointer;}
+.accordionTitle{text-transform: uppercase;}
+.mat-expanded .accordionHeader, .accordionHeader{background: #0000000a; border-radius: 0px; height: 48px !important;}
